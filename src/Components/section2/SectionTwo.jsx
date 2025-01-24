@@ -1,13 +1,9 @@
 import React from 'react'
 import './sectionTwo.css'
-import ImgCarousel from './ImgCarousel'
 
 const SectionTwo = () => {
   return (
       <div className='section_2_container'>
-          {/* <div className='carousel_main_container'>
-          <ImgCarousel />
-          </div> */}
 
           <div className='section_2_img_container'>
               <img className='section_2_img' src="./5b68266cf109cfb76fd95be9_image-slider-01.jpg" alt="img" />
