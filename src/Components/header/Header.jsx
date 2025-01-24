@@ -4,10 +4,12 @@ import { useInView } from 'react-intersection-observer';
 import './header.css'
 
 const Header = () => {
+
     const [ref, InView] = useInView({
         triggerOnce: false,
         threshold:0.2
-      })
+    })
+    
   return (
       <header>
           <motion.div
